@@ -53,3 +53,8 @@ python change.py reset
 ```
 python change.py add "domain.com" "127.0.0.1:9000"
 ```
+
+# What is this intended for
+
+This script is intended to ease deployment of a single or multiple HTTPS
+(TLS) enabled websites with different domain names, on a single device (VPS).
