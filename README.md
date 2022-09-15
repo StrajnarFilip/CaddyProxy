@@ -20,7 +20,12 @@ cd conf
 
 Inside CaddyProxy/conf directory, there is an default caddy.json,
 which doesn't do anything useful yet. Change configuration with
-`change.py` script.
+`change.py` script. You can add as many mappings from domain to
+address as you'd like. Provided example:
+
+```
+python change.py add "your.comain.com" "127.0.0.1:6000"
+```
 
 
 ### Reset file (change back to default json configuration):
