@@ -1,0 +1,35 @@
+{
+    "apps": {
+        "tls": {
+            "automation": {
+                "policies": [
+                    {
+                        "subjects": [],
+                        "issuers": [
+                            {
+                                "module": "acme"
+                            }
+                        ],
+                        "renewal_window_ratio": 0.5,
+                        "key_type": "p384"
+                    }
+                ]
+            },
+            "cache": {
+                "capacity": 10000
+            }
+        },
+        "http": {
+            "http_port": 80,
+            "https_port": 443,
+            "servers": {
+                "multi": {
+                    "listen": [
+                        ":443"
+                    ],
+                    "routes": []
+                }
+            }
+        }
+    }
+}
