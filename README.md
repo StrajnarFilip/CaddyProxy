@@ -24,7 +24,7 @@ which doesn't do anything useful yet. Change configuration with
 address as you'd like. Provided example:
 
 ```
-python change.py add "your.comain.com" "127.0.0.1:6000"
+python change.py add "your.domain.com" "127.0.0.1:6000"
 ```
 
 When finish adding domain to address mappings, change to parent directory,
