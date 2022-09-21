@@ -27,7 +27,7 @@ address as you'd like. Provided example:
 python change.py add "your.domain.com" "127.0.0.1:6000"
 ```
 
-When finish adding domain to address mappings, change to parent directory,
+When you finish adding domain to address mappings, go back to parent directory,
 where `docker-compose.yaml` file is located.
 ```
 cd ..
