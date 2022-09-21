@@ -18,7 +18,7 @@ To actually configure the reverse proxy, change directory once again:
 cd conf
 ```
 
-Inside CaddyProxy/conf directory, there is an default caddy.json,
+Inside CaddyProxy/conf directory, there is a default caddy.json,
 which doesn't do anything useful yet. Change configuration with
 `change.py` script. You can add as many mappings from domain to
 address as you'd like. Provided example:
