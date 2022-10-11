@@ -111,8 +111,8 @@ elif sys.argv[1] == "add":
     # Example: python change.py add "my.domain.com" "127.0.0.1:5000"
     add_reverse_proxy(sys.argv[2], sys.argv[3])
 elif sys.argv[1] == "add-static":
-    # Example: python change.py add-static "my.domain.com" "/static" "/static"
-    # NOTE: with included docker-compose.yaml file, you should let the root path stay "/static"
+    # Example: python change.py add-static "my.domain.com" "/static/*" "/"
+    # NOTE: with included docker-compose.yaml file, you should use the above example
     add_static_file_server(sys.argv[2], sys.argv[3], sys.argv[4])
 else:
     print("Invalid command.")
