@@ -21,7 +21,7 @@ services:
       - ./static:/static
     command:
       [
-        "caddy","run","-config",
+        "caddy","run","--config",
         "/conf/caddy.json"
       ]
     ports:
