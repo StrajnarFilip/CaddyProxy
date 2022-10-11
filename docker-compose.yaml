@@ -18,6 +18,7 @@ services:
     restart: "always"
     volumes:
       - ./conf:/conf
+      - ./static:/static
     command:
       [
         "caddy","run","-config",
